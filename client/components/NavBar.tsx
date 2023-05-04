@@ -34,7 +34,8 @@ export default function NavBar() {
             </a>
             <a
               className="px-10 py-3 f text-xl hover:text-white hover:bg-gray-700 rounded text-center"
-              href="#curriculum"
+              href="/cv/SeanSticklandCV.pdf"
+              download
             >
               Curriculum Vitae
             </a>
