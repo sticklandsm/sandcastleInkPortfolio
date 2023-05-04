@@ -15,7 +15,7 @@ export const projectData = {
         </h3>
         <a
           className="md:text-base underline text-blue-600 hover:text-blue-800 visited:text-purple-600 text-sm"
-          href="https://matchstickland-production-a71d.up.railway.app"
+          href="https://matchstickland-production.up.railway.app/"
         >
           Check it out here!
         </a>
