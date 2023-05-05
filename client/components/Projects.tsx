@@ -7,7 +7,7 @@ export default function Projects() {
   const [currentlyShown, setCurrentlyShown] = useState('wordleLike')
 
   return (
-    <>
+    <div>
       <div className=" bg-white grid place-items-center">
         <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3">
           Projects
@@ -20,8 +20,8 @@ export default function Projects() {
           currentlyShown={currentlyShown}
           setCurrentlyShown={setCurrentlyShown}
         />
+        <Project project={projectData[currentlyShown] as JSX.Element} />
       </div>
-      <Project project={projectData[currentlyShown] as JSX.Element} />
-    </>
+    </div>
   )
 }
