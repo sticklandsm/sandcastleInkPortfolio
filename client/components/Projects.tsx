@@ -1,26 +1,36 @@
 import { useState } from 'react'
 import ProjectsNavBar from './ProjectsNavBar'
 import Project from './Project'
-import { projectData } from '../project-data/projectElements'
+import { projectsData } from '../project-data/projectElements'
 
 export default function Projects() {
-  const [currentlyShown, setCurrentlyShown] = useState('wordleLike')
+  const [currentlyShown, setCurrentlyShown] = useState(projectsData[0].name)
 
   return (
-    <div>
-      <div className=" bg-white grid place-items-center">
-        <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3">
-          Projects
-        </h2>
-        <p className="md:text-lg text-gray-500 text-base">
-          Check out the cool projects I worked on at Dev Academy, and in my free
-          time.
+    <div className="">
+      <div className=" bg-white max-w-xs md:max-w-5xl mx-auto">
+        <a id="projects" href="#projects">
+          <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3 text-center">
+            Projects
+          </h2>
+        </a>
+        <p className="md:text-lg text-gray-500 text-base text-center">
+          {`Check out the cool projects I've worked on at Dev Academy, and in my free
+        time.`}
         </p>
         <ProjectsNavBar
           currentlyShown={currentlyShown}
           setCurrentlyShown={setCurrentlyShown}
         />
-        <Project project={projectData[currentlyShown] as JSX.Element} />
+        {projectsData.map((project) => {
+          return (
+            project.name === currentlyShown && (
+              <div key={project.name}>
+                <Project project={project} />
+              </div>
+            )
+          )
+        })}
       </div>
     </div>
   )

@@ -28,6 +28,12 @@ export default function NavBar() {
           <div className="flex-col  sm:flex-row font-medium flex-1 flex justify-center  text-black-900">
             <a
               className="px-10 py-3 text-xl hover:text-white hover:bg-gray-700 rounded"
+              href="/"
+            >
+              About Me
+            </a>
+            <a
+              className="px-10 py-3 text-xl hover:text-white hover:bg-gray-700 rounded"
               href="#projects"
             >
               Projects
