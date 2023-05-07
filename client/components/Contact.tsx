@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className=" py-5 md:py-20">
+    <div className=" py-60 md:py-20">
       <div className=" bg-white max-w-xs md:max-w-5xl mx-auto">
         <a id="contact" href="#contact">
           <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3 text-center">

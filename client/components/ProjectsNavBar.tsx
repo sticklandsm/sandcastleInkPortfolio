@@ -14,7 +14,6 @@ export default function ProjectsNavBar(props: Props) {
     console.log(props.currentlyShown)
   }
 
-  //https://gemini-summits-production.up.railway.app/
   return (
     <>
       <nav className="flex justify-center items-center pt-8 pb-5">
@@ -23,7 +22,7 @@ export default function ProjectsNavBar(props: Props) {
             return (
               <li
                 key={project.title}
-                className="bg-gray-200 px-3 py-1 rounded-full text-s  text-gray-800 hidden md:block"
+                className="bg-gray-200 px-3 py-1 rounded-full text-s  text-gray-800  md:block"
                 style={
                   props.currentlyShown === project.name ? selectedStyle : {}
                 }

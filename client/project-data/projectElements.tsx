@@ -33,13 +33,18 @@ export const projectsData: Projectdata[] = [
   letters as right now you can't do letters like M and X. In order
   to achieve that I would make the matchsticks draggable to anywhere on
   screen instead of being in a grid.`,
-    thingsUsed: ['TypeScript', 'React', 'HTML', 'CSS'],
+    thingsUsed: ['TypeScript', 'React', 'HTML', 'CSS', 'JSON'],
   },
   {
     name: 'restaurantOrderingApp',
     title: 'Restaurant Ordering App',
     subTitle: 'Waitless, wait less without waiters!',
-    imagesURL: ['/images/Waitless03.png'],
+    imagesURL: [
+      '/images/Waitless03.png',
+      '/images/Waitless02.png',
+      '/images/Waitless01.png',
+      '/images/Waitless04.png',
+    ],
     linkToProject: 'https://github.com/harakeke-2023/Waitless',
     details: `This Web App was my groups final project at Dev Academy. The idea is
     that customers will come into a restaurant and scan a QR code. This
@@ -75,7 +80,21 @@ export const projectsData: Projectdata[] = [
       'React Router',
       'Redux',
       'HTML',
-      'TaiWind',
+      'TailWind',
     ],
+  },
+  {
+    name: 'thisWebsite',
+    title: 'My Portfolio',
+    subTitle:
+      'I made this portfolio from scratch over the course of a day or so',
+    imagesURL: [
+      '/images/thisWebsite01.png',
+      '/images/thisWebsite02.png',
+      '/images/thisWebsite03.png',
+    ],
+    linkToProject: '/',
+    details: `The last assessment at Dev Academy is to make a portfolio. This is where you are now. The thing that took the longest was trying to decide what I wanted it to look like, and what features I should put in. I didn't use any templates for this, everything from the little sandcastle easter egg, to the image carousel was coded from scratch by me. I've also made it work on mobile to the best of my abilities. I wanted to do this whole thing in Angular for practice, but that was a bit more difficult than I thought so I'll leave that for my next project.`,
+    thingsUsed: ['TypeScript', 'React', 'HTML', 'TailWind'],
   },
 ]
