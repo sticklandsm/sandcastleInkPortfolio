@@ -10,6 +10,27 @@ export interface Projectdata {
 
 export const projectsData: Projectdata[] = [
   {
+    name: 'pictophone',
+    title: 'Pictophone',
+    subTitle: 'It is like the games telephone and pictionary together at last!',
+    imagesURL: [
+      '/images/pictophone01.png',
+      '/images/pictophone02.png',
+      '/images/pictophone0.png',
+    ],
+    linkToProject: '/',
+    details: `This is my latest work. When we were selecting our final projects at Dev Academy Aotearoa, I proposed an online version of Telephone Pictionary, a game I play with friends usually using pen and paper. My idea was chosen but I didn't end up being assigned to work on it. I was impressed with what the other team ended up making but I still wanted to see my vision of it come to life so here it is. I found storing and retrieving images to be the toughest part of working on the backend. It took me hours to figure out how to convert the images that were painted to binary, then send them the back end via API, and then retrieving them was just as time consuming. Styling was also very difficult, no matter how hard I tried I couldn&apos;t get the footer to sit at the right place. If I had to do this again, I would be stricter with my redux use, I used Redux for some things, but then went straight back to normal state when I needed to use APIs which isn&apos;t great.`,
+    thingsUsed: [
+      'Full Stack',
+      'TypeScript',
+      'React-Redux',
+      'HTML',
+      'Tailwind',
+      'JSON',
+      'Postgres',
+    ],
+  },
+  {
     name: 'wordleLike',
     title: 'Wordle Like Game',
     subTitle: 'Matchstick Land!',
