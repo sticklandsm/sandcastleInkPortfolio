@@ -55,7 +55,6 @@ export default function NavBar() {
           <div className="flex items-center ml-auto">
             <SocialIcon url="https://www.linkedin.com/in/sean-stickland-aa26461ab/" />
             <SocialIcon url="https://github.com/sticklandsm" />
-            SeanSeanSean
           </div>
         </div>
       </nav>
