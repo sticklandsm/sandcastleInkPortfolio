@@ -30,12 +30,12 @@ export default function Project(props: Props) {
           Check it out here!
         </a>
         <p className="md:text-base text-gray-500 text-sm">{details}</p>
-        <ul className=" text-sm relative flex justify-center items-center flex-wrap flex-none  md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white align-middle">
+        <ul className=" text-sm relative flex  items-center flex-wrap flex-none md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white align-middle">
           {thingsUsed.map((thingUsed, index) => {
             return (
               <li
                 key={index}
-                className="bg-gray-200 px-3 py-1 rounded-full text-gray-800  md:block text-center "
+                className="bg-gray-200 px-1 py-1 rounded-full text-gray-800  md:block text-center "
               >
                 {thingUsed}
               </li>

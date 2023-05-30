@@ -12,7 +12,7 @@ export default function AboutMe() {
           </div>
           <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
             <h1 className="font-black text-gray-800 md:text-4xl text-xl">
-              I&apos;m Sean and I&apos;m a Junior Full Stack Developer
+              I&apos;m Sean and I&apos;m a Full Stack Developer
             </h1>
             <p className="md:text-lg text-gray-500 text-base">
               I&apos;m based in Auckland, New Zealand. I&apos;ve worked as an IT
@@ -24,9 +24,14 @@ export default function AboutMe() {
                 href="https://devacademy.co.nz/"
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
               >
-                Dev Academy Aotearoa
+                Dev Academy Aotearoa.
               </a>
-              , with exceptional results!
+            </p>
+            <p className="md:text-lg text-gray-500 text-base">
+              I completed the program and emerged as one of the most proficient
+              students in my cohort. I have many transferrable skills from the
+              IT world, and I&apos;m eager to join a high-performing team where
+              I can contribute my skills and continue to learn!{' '}
             </p>
           </div>
         </div>
