@@ -8,7 +8,7 @@ export default function Projects() {
 
   return (
     <div className="">
-      <div className=" bg-white max-w-xs md:max-w-5xl mx-auto">
+      <div className="  max-w-xs md:max-w-5xl mx-auto">
         <a id="projects" href="#projects">
           <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3 text-center">
             Projects

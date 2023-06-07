@@ -11,12 +11,12 @@ export default function Project(props: Props) {
   return (
     <div
       // style={{ height: 900 }}
-      className=" flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl md:h-[700px] shadow-lg p-3 max-w-xs md:max-w-5xl mx-auto border border-white bg-white"
+      className=" flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl md:h-[700px] shadow-lg p-3 max-w-xs md:max-w-5xl mx-auto border border-white "
     >
-      <div className="w-full md:w-1/3  bg-white grid place-items-center">
+      <div className="w-full md:w-1/3   grid place-items-center">
         <Carousel images={imagesURL} />
       </div>
-      <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+      <div className="w-full md:w-2/3  flex flex-col space-y-2 p-3">
         <h3 className="font-black text-gray-800 md:text-xl text-lg">
           {' '}
           {subTitle}
@@ -30,7 +30,7 @@ export default function Project(props: Props) {
           Check it out here!
         </a>
         <p className="md:text-base text-gray-500 text-sm">{details}</p>
-        <ul className=" text-sm relative flex  items-center flex-wrap flex-none md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white align-middle">
+        <ul className=" text-sm relative flex  items-center flex-wrap flex-none md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white  align-middle">
           {thingsUsed.map((thingUsed, index) => {
             return (
               <li
