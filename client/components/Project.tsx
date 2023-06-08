@@ -29,7 +29,9 @@ export default function Project(props: Props) {
         >
           Check it out here!
         </a>
-        <p className="md:text-base text-gray-500 text-sm">{details}</p>
+        <p className="md:text-base text-gray-500 dark:text-gray-400 text-sm">
+          {details}
+        </p>
         <ul className=" text-sm relative flex  items-center flex-wrap flex-none md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white  align-middle">
           {thingsUsed.map((thingUsed, index) => {
             return (

@@ -4,7 +4,7 @@ import Home from './Home'
 
 function App() {
   return (
-    <div className="bg-white dark:bg-slate-800">
+    <div className="min-h-screen bg-white dark:bg-slate-800 dark:text-white ">
       <Header />
       <Home />
       <Footer />

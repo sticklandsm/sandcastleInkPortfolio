@@ -10,11 +10,11 @@ export default function Projects() {
     <div className="">
       <div className="  max-w-xs md:max-w-5xl mx-auto">
         <a id="projects" href="#projects">
-          <h2 className="font-black text-gray-800 md:text-3xl text-xl pb-3 text-center">
+          <h2 className="font-black text-gray-800 dark:text-gray-300 md:text-3xl text-xl pb-3 text-center">
             Projects
           </h2>
         </a>
-        <p className="md:text-lg text-gray-500 text-base text-center">
+        <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base text-center">
           {`Check out the cool projects I've worked on at Dev Academy, and in my free
         time.`}
         </p>
