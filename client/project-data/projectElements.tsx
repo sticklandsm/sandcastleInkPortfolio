@@ -41,8 +41,8 @@ export const projectsData: Projectdata[] = [
       '/images/Waitless01.png',
       '/images/Waitless04.png',
     ],
-    linkToProject: 'https://orca-app-kf2qf.ondigitalocean.app/table/1/menu',
-    adminSectionLink: 'https://orca-app-kf2qf.ondigitalocean.app/admin',
+    linkToProject: 'https://waitless.sandcastleink.nz/table/1/menu',
+    adminSectionLink: 'https://waitless.sandcastleink.nz/admin',
     details: `This Web App was my groups final project at Dev Academy. The idea is
     that customers will come into a restaurant and scan a QR code. This
     will take them to the Waitless website where they can select the food
