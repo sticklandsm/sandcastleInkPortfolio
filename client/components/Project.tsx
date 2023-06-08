@@ -23,7 +23,7 @@ export default function Project(props: Props) {
         <Carousel images={imagesURL} />
       </div>
       <div className="w-full md:w-2/3  flex flex-col space-y-2 p-3">
-        <h3 className="font-black text-gray-800 md:text-xl text-lg">
+        <h3 className="font-black text-gray-800 dark:text-gray-300 md:text-xl text-lg">
           {' '}
           {subTitle}
         </h3>
