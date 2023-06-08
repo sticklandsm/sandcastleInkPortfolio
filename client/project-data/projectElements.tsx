@@ -4,6 +4,7 @@ export interface Projectdata {
   subTitle: string
   imagesURL: string[]
   linkToProject: string
+  adminSectionLink?: string
   details: string
   thingsUsed: string[]
 }
@@ -40,7 +41,8 @@ export const projectsData: Projectdata[] = [
       '/images/Waitless01.png',
       '/images/Waitless04.png',
     ],
-    linkToProject: 'https://orca-app-kf2qf.ondigitalocean.app/table/1',
+    linkToProject: 'https://orca-app-kf2qf.ondigitalocean.app/table/1/menu',
+    adminSectionLink: 'https://orca-app-kf2qf.ondigitalocean.app/admin',
     details: `This Web App was my groups final project at Dev Academy. The idea is
     that customers will come into a restaurant and scan a QR code. This
     will take them to the Waitless website where they can select the food
@@ -79,20 +81,6 @@ export const projectsData: Projectdata[] = [
     ],
   },
   {
-    name: 'thisWebsite',
-    title: 'My Portfolio',
-    subTitle:
-      'I made this portfolio from scratch over the course of a day or so',
-    imagesURL: [
-      '/images/thisWebsite01.png',
-      '/images/thisWebsite02.png',
-      '/images/thisWebsite03.png',
-    ],
-    linkToProject: '/',
-    details: `The last assessment at Dev Academy is to make a portfolio. This is where you are now. The thing that took the longest was trying to decide what I wanted it to look like, and what features I should put in. I didn't use any templates for this, everything from the little sandcastle easter egg, to the image carousel was coded from scratch by me. I've also made it work on mobile to the best of my abilities. I wanted to do this whole thing in Angular for practice, but that was a bit more difficult than I thought so I'll leave that for my next project.`,
-    thingsUsed: ['TypeScript', 'React', 'HTML', 'TailWind'],
-  },
-  {
     name: 'wordleLike',
     title: 'Wordle Like Game',
     subTitle: 'Matchstick Land!',
@@ -117,5 +105,19 @@ export const projectsData: Projectdata[] = [
   to achieve that I would make the matchsticks draggable to anywhere on
   screen instead of being in a grid.`,
     thingsUsed: ['TypeScript', 'React', 'HTML', 'CSS', 'JSON'],
+  },
+  {
+    name: 'thisWebsite',
+    title: 'My Portfolio',
+    subTitle:
+      'I made this portfolio from scratch over the course of a day or so',
+    imagesURL: [
+      '/images/thisWebsite01.png',
+      '/images/thisWebsite02.png',
+      '/images/thisWebsite03.png',
+    ],
+    linkToProject: '/',
+    details: `The last assessment at Dev Academy is to make a portfolio. This is where you are now. The thing that took the longest was trying to decide what I wanted it to look like, and what features I should put in. I didn't use any templates for this, everything from the little sandcastle easter egg, to the image carousel was coded from scratch by me. I've also made it work on mobile to the best of my abilities. I wanted to do this whole thing in Angular for practice, but that was a bit more difficult than I thought so I'll leave that for my next project.`,
+    thingsUsed: ['TypeScript', 'React', 'HTML', 'TailWind'],
   },
 ]
