@@ -46,7 +46,7 @@ export default function AboutMe() {
               TypeScript, Node JS, React, and HTML/CSS. Additionally, I have
               experience in consuming RESTful API services and deploying
               projects to the web. <br /> <br /> Please check out some of my
-              project below!{' '}
+              projects below!{' '}
             </p>
           </div>
         </div>
