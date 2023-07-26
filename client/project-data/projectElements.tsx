@@ -85,7 +85,7 @@ export const projectsData: Projectdata[] = [
     title: 'Wordle Like Game',
     subTitle: 'Matchstick Land!',
     imagesURL: ['/images/matchStickLand.png'],
-    linkToProject: 'https://matchstickland-production.up.railway.app/',
+    linkToProject: 'https://www.portfolio.sandcastleink.nz/',
     details: `This game was my personal project during Dev Academy. I
   worked on it in my very small amount of spare time, which is why it's a bit messy with it's styling. It's a little
   similar to Wordle, in that the game will pick a random word from the
