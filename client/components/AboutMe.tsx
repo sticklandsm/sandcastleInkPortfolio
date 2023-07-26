@@ -15,11 +15,11 @@ export default function AboutMe() {
               I&apos;m Sean and I&apos;m a Full Stack Developer
             </h1>
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              I&apos;m based in Auckland, New Zealand. I&apos;ve worked as an IT
-              Specialist for many years, but I&apos;ve always been a coder at
-              heart. Recently I took on software development full time. I
-              enrolled and recently graduated from a rigorous software
-              development program at{' '}
+              I&apos;m based in Auckland, New Zealand. I have 4 years of
+              experience working in software companies as an ICT Technician but
+              I&apos;ve always had a keen interest in coding. At the end of 2022
+              I took on software development full time. At the start of 2023 I
+              enrolled in the coding bootcamp,{' '}
               <a
                 href="https://devacademy.co.nz/"
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
@@ -28,10 +28,25 @@ export default function AboutMe() {
               </a>
             </p>
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              I completed the program and emerged as one of the most proficient
-              students in my cohort. I have many transferrable skills from the
-              IT world, and I&apos;m eager to join a high-performing team where
-              I can contribute my skills and continue to learn!{' '}
+              The bootcamp aims to simulate working in a real agile development
+              team. Due to my coding aptitude and prior experience, I often
+              assumed the role of team lead. I scoped out the projects, ensured
+              progress was being made, and provided guidance whenever others
+              were blocked. I then used my evenings to work on coding the back
+              ends. I emerged as one of the most proficient students in my
+              cohort.{' '}
+            </p>
+            <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
+              Programming has always been a strength of mine, but I faced
+              challenges in fully pursuing it due to undiagnosed ADHD. After
+              receiving a diagnosis in 2020 and with the aid of medication, I
+              have been able to overcome these obstacles and truly unlock my
+              potential. Thanks to Dev Academy and my personal development, I am
+              now a proficient full stack developer with skills in JavaScript,
+              TypeScript, Node JS, React, and HTML/CSS. Additionally, I have
+              experience in consuming RESTful API services and deploying
+              projects to the web. <br /> <br /> Please check out some of my
+              project below!{' '}
             </p>
           </div>
         </div>
