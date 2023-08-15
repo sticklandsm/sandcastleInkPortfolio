@@ -52,6 +52,7 @@ export default function NavBar() {
               className="px-10 py-3 f text-xl hover:text-white hover:bg-gray-700 rounded text-center"
               href="/cv/SeanSticklandCV.pdf"
               download
+              target="_blank"
             >
               Curriculum Vitae
             </a>
@@ -67,12 +68,14 @@ export default function NavBar() {
               className="dark:bg-black-300 dark:rounded-full"
               url="https://www.linkedin.com/in/sean-stickland-aa26461ab/"
               fgColor={systemPrefersDark ? 'white' : ''}
+              target="_blank"
             />
             <SocialIcon
               className="dark:bg-black-300 dark:rounded-full"
               url="https://github.com/sticklandsm"
               bgColor={systemPrefersDark ? 'white' : ''}
               fgColor={systemPrefersDark ? 'black' : ''}
+              target="_blank"
             />
           </div>
         </div>
