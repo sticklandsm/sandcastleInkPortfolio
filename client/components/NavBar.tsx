@@ -1,8 +1,18 @@
 import { useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
+import { useMediaQuery } from 'react-responsive'
 
 export default function NavBar() {
   const [sandcastleKicked, kickSandcastle] = useState(false)
+  const [isDark, setIsDark] = useState(true)
+  const systemPrefersDark = useMediaQuery(
+    {
+      query: '(prefers-color-scheme: dark)',
+    },
+    undefined,
+    (isSystemDark) => setIsDark(isSystemDark)
+  )
+  console.log(systemPrefersDark)
   return (
     <>
       <nav className="top-0 rounded-md shadow-lg">
@@ -56,10 +66,13 @@ export default function NavBar() {
             <SocialIcon
               className="dark:bg-black-300 dark:rounded-full"
               url="https://www.linkedin.com/in/sean-stickland-aa26461ab/"
+              fgColor={systemPrefersDark ? 'white' : ''}
             />
             <SocialIcon
               className="dark:bg-black-300 dark:rounded-full"
               url="https://github.com/sticklandsm"
+              bgColor={systemPrefersDark ? 'white' : ''}
+              fgColor={systemPrefersDark ? 'black' : ''}
             />
           </div>
         </div>

@@ -46,6 +46,7 @@
     "react-native-safe-area-context": "^3.3.2",
     "react-native-svg": "^12.1.1",
     "react-native-web": "^0.17.1",
+    "react-responsive": "^9.0.2",
     "react-social-icons": "^5.15.0"
   },
   "devDependencies": {

@@ -27,8 +27,8 @@ export const projectsData: Projectdata[] = [
       'React-Redux',
       'HTML',
       'Tailwind',
-      'JSON',
       'Postgres',
+      'Express',
     ],
   },
   {
@@ -56,6 +56,7 @@ export const projectsData: Projectdata[] = [
       'CSS',
       'SQLite',
       'KNEX',
+      'Express',
     ],
   },
   {
@@ -78,6 +79,7 @@ export const projectsData: Projectdata[] = [
       'Redux',
       'HTML',
       'TailWind',
+      'Express',
     ],
   },
   {
