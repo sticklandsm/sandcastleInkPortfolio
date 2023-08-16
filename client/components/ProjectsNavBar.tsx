@@ -16,7 +16,7 @@ export default function ProjectsNavBar(props: Props) {
 
   return (
     <>
-      <nav className="flex justify-center items-center pt-8 pb-5">
+      <nav className="flex justify-center items-center  pb-5">
         <ul className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl p-3 max-w-xs md:max-w-3xl mx-auto border border-white dark:border-0 ">
           {projectsData.map((project: Projectdata) => {
             return (

@@ -2,11 +2,10 @@ export default function Contact() {
   return (
     <div className=" py-10">
       <div className=" max-w-xs md:max-w-5xl mx-auto">
-        <a id="contact" href="#contact">
-          <h2 className="font-black text-gray-800 dark:text-gray-300 md:text-3xl text-xl pb-3 text-center">
-            Contact
-          </h2>
-        </a>
+        <h2 className="font-black text-gray-800 dark:text-gray-300 md:text-3xl text-xl pb-3 text-center">
+          Contact
+        </h2>
+
         <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base text-center">
           You can reach me at the below email: <br />
           <a

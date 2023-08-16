@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
+
 export default function AboutMe() {
   return (
     <>
-      <div className=" py-5 md:py-20">
+      <div className=" py-10">
         <div className="flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-7xl mx-auto border border-white dark:border-0">
           <div className="w-full md:w-1/3 ">
             <img
@@ -10,6 +12,7 @@ export default function AboutMe() {
               className="rounded-xl"
             />
           </div>
+
           <div className="w-full md:w-2/3  flex flex-col space-y-2 p-3">
             <h1 className="font-black text-gray-800 dark:text-gray-300 md:text-4xl text-xl">
               I&apos;m Sean and I&apos;m a Full Stack Developer
@@ -46,7 +49,14 @@ export default function AboutMe() {
               TypeScript, Node JS, React, and HTML/CSS. Additionally, I have
               experience in consuming RESTful API services and deploying
               projects to the web. <br /> <br /> Please check out some of my
-              projects below!{' '}
+              projects{' '}
+              <Link
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                to="/projects"
+              >
+                here
+              </Link>
+              !{' '}
             </p>
           </div>
         </div>
