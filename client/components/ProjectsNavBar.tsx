@@ -22,7 +22,7 @@ export default function ProjectsNavBar(props: Props) {
             return (
               <li
                 key={project.title}
-                className="flex bg-gray-200 px-3 py-1 rounded-full text-s  text-gray-800 "
+                className="flex bg-gray-200 px-3 py-1 rounded-full text-s text-gray-800 transition-colors duration-300 ease-in-out"
                 style={
                   props.currentlyShown === project.name ? selectedStyle : {}
                 }

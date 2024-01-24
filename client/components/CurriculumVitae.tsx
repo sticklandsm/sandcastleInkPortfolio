@@ -1,12 +1,4 @@
-/* <iframe
-        src="/cv/SeanSticklandCV.pdf"
-        width="100%"
-        height="1000px" // Adjust height as needed
-        style={{ border: 'none' }}
-        title="CurriculumVitae"
-      /> */
-
-import PdfViewer from './PdfViewer'
+// import PdfViewer from './PdfViewer'
 
 export default function CurriculumVitae() {
   return (
