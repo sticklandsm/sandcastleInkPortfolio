@@ -13,6 +13,7 @@ export default function Project(props: Props) {
     adminSectionLink,
     details,
     thingsUsed,
+    linkToCode,
   } = props.project
   return (
     <div
@@ -35,6 +36,16 @@ export default function Project(props: Props) {
         >
           Check it out here!
         </a>
+        {linkToCode && (
+          <a
+            className="md:text-base underline text-blue-600 hover:text-blue-800 visited:text-purple-600 text-sm"
+            target="_blank"
+            rel="noreferrer"
+            href={linkToCode}
+          >
+            See the GitHub page here
+          </a>
+        )}
         {adminSectionLink && (
           <a
             className="md:text-base underline text-blue-600 hover:text-blue-800 visited:text-purple-600 text-sm"
@@ -46,7 +57,10 @@ export default function Project(props: Props) {
           </a>
         )}
 
-        <p className="md:text-base text-gray-500 dark:text-gray-400 text-sm">
+        <p
+          className="md:text-base text-gray-500 dark:text-gray-400 text-sm"
+          style={{ whiteSpace: 'pre-line' }}
+        >
           {details}
         </p>
 

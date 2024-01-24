@@ -17,39 +17,52 @@ export default function AboutMe() {
             <h1 className="font-black text-gray-800 dark:text-gray-300 md:text-4xl text-xl">
               I&apos;m Sean and I&apos;m a Full Stack Developer
             </h1>
+            <br />
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              I&apos;m based in Auckland, New Zealand. I have 9 years of
-              previous experience as an IT support specialist, but I&apos;ve
-              always had a keen interest in coding. At the end of 2022 I took on
-              software development full time. At the start of 2023 I enrolled in
-              the coding bootcamp,{' '}
+              I&apos;m an early career software engineer with 9 years of
+              previous experience as an IT Support Specialist. In 2023, I
+              graduated with flying colours from{' '}
               <a
-                href="https://devacademy.co.nz/"
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://devacademy.co.nz/"
+                target="_blank"
+                rel="noreferrer"
               >
-                Dev Academy Aotearoa.
+                Dev Academy Aotearoa
               </a>
+              —a rigorous TypeScript-based coding bootcamp where I was
+              recognized by the lead teacher as “one of our most advanced
+              students.&quot;
             </p>
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              The bootcamp aims to simulate working in a real agile development
-              team. Due to my coding aptitude and prior experience, I often
-              assumed the role of team lead. I scoped out the projects, ensured
-              progress was being made, and provided guidance whenever others
-              were blocked. I then used my evenings to work on coding the back
-              ends. I emerged as one of the most proficient students in my
-              cohort.{' '}
+              Since then, I&apos;ve honed my craft by contracting, building side
+              projects, and studying further. To round out my knowledge, I
+              recently completed{' '}
+              <a
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                href="https://aws.amazon.com/training/restart/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AWS re/Start
+              </a>
+              , an intense 12-week development training program focused on using
+              Python to set up and maintain AWS cloud infrastructure. Thanks to
+              Dev Academy, AWS, and my personal development, I am now a
+              proficient full stack developer with skills in JavaScript,
+              TypeScript, Node, React, Redux, Angular, MySQL, RESTful APIs, web
+              deployment, and AWS Lambda, S3, EC2, RDS, CloudFront, and
+              SNS.I&apos;m now looking for my next opportunity to learn and grow
+              as a developer. I&apos;m excited to join a diverse and innovative
+              team.
             </p>
+            <br />
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
               Programming has always been a strength of mine, but I faced
               challenges in fully pursuing it due to undiagnosed ADHD. After
               receiving a diagnosis in 2020 and with the aid of medication, I
               have been able to overcome these obstacles and truly unlock my
-              potential. Thanks to Dev Academy and my personal development, I am
-              now a proficient full stack developer with skills in JavaScript,
-              TypeScript, Node JS, React, and HTML/CSS. Additionally, I have
-              experience in consuming RESTful API services and deploying
-              projects to the web. <br /> <br /> Please check out some of my
-              projects{' '}
+              potential. Please check out some of my projects{' '}
               <Link
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
                 to="/projects"
