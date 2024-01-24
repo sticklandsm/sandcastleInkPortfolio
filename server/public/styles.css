@@ -13,33 +13,38 @@
 }
 
 
-/* transition: */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* transitions: */
+
+
+/* Assuming the container for your routes has a class named "route-container" */
+.route-container {
+  position: relative;
+  
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(20px);
-  }
+.slide-enter, .slide-exit {
+  position: absolute;
+  width: 100%;
 }
 
-.fade-in {
-  animation: fadeIn 0.5s ease forwards;
+.slide-enter {
+  transform: translateX(100%); /* Adjust the percentage as needed */
+  opacity: 0;
 }
 
-.fade-out {
-  animation: fadeOut 0.5s ease forwards;
+.slide-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+.slide-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-exit-active {
+  transform: translateX(-30%); /* Adjust the percentage as needed */
+  opacity: 0;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
 }
