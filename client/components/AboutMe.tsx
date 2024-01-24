@@ -19,7 +19,7 @@ export default function AboutMe() {
             </h1>
             <br />
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              I&apos;m an early career software engineer with 9 years of
+              I&apos;m an early career software engineer with nine years of
               previous experience as an IT Support Specialist. In 2023, I
               graduated with flying colours from{' '}
               <a
