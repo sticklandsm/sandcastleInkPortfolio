@@ -19,7 +19,7 @@ export default function AboutMe() {
             </h1>
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
               I&apos;m based in Auckland, New Zealand. I have 9 years of
-              previous experience as a IT support specialist, but I&apos;ve
+              previous experience as an IT support specialist, but I&apos;ve
               always had a keen interest in coding. At the end of 2022 I took on
               software development full time. At the start of 2023 I enrolled in
               the coding bootcamp,{' '}
