@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Add negative margin for mobile screens */
+@media (max-width: 765px) {
+  .pdf-container {
+    margin-top: -700px; /* Adjust the value as needed */
+    margin-bottom: -500px;
+  }
+}
+
+
+
+
+

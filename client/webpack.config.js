@@ -9,10 +9,16 @@ module.exports = {
   mode: 'development',
   module: {
     rules: [
+      // Rule for JavaScript/TypeScript files
       {
         test: /\.(j|t)sx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
+      },
+      // Separate Rule for CSS files
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
