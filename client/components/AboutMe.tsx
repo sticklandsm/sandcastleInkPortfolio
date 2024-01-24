@@ -18,11 +18,11 @@ export default function AboutMe() {
               I&apos;m Sean and I&apos;m a Full Stack Developer
             </h1>
             <p className="md:text-lg text-gray-500 dark:text-gray-400 text-base">
-              I&apos;m based in Auckland, New Zealand. I have 4 years of
-              experience working in software companies as an ICT Technician but
-              I&apos;ve always had a keen interest in coding. At the end of 2022
-              I took on software development full time. At the start of 2023 I
-              enrolled in the coding bootcamp,{' '}
+              I&apos;m based in Auckland, New Zealand. I have 9 years of
+              previous experience as a IT support specialist, but I&apos;ve
+              always had a keen interest in coding. At the end of 2022 I took on
+              software development full time. At the start of 2023 I enrolled in
+              the coding bootcamp,{' '}
               <a
                 href="https://devacademy.co.nz/"
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"

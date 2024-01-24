@@ -25,7 +25,7 @@ export default function NavBar() {
             </button>
             <span className="ml-2"></span>
           </div>
-          <div className="flex-col  sm:flex-row font-medium flex-1 flex justify-center  text-black-900 dark:text-white">
+          <div className="flex-col  sm:flex-row font-medium flex-1 flex justify-center  text-black-900 dark:text-white text-center">
             <a
               className="px-10 py-3 text-xl hover:text-white hover:bg-gray-700 rounded"
               href="/"
