@@ -64,7 +64,7 @@ export default function Projects() {
             </animated.div>
           ))}
           {/* Spacer element to extend the height of the page */}
-          <div style={{ height: '80vh' }}></div>
+          <div className="md:h-[100vh] h-[160vh]"></div>
         </div>
       </div>
     </div>
