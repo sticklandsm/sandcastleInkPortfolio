@@ -90,11 +90,12 @@ export default function NavBar() {
               Contact
             </Link>
           </div>
-          <div className="flex items-center ml-auto">
+          <div className="flex items-center ml-auto justify-evenly">
             <SocialIcon
               className="dark:bg-black-300 dark:rounded-full"
               url="https://www.linkedin.com/in/sean-stickland-aa26461ab/"
             />
+            <div className="w-3"></div>
             <SocialIcon
               className="dark:bg-black-300 dark:rounded-full"
               url="https://github.com/sticklandsm"

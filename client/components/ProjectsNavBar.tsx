@@ -12,7 +12,6 @@ export default function ProjectsNavBar(props: Props) {
     const buttonName = evt.currentTarget.getAttribute('data-name')
     if (buttonName) {
       props.setCurrentlyShown(() => buttonName)
-      console.log(props.currentlyShown)
     }
   }
 
